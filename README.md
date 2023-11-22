@@ -1,15 +1,4 @@
-# Docusaurus Multi-instance Template
-
-This template helps you get started with a [Docusaurus 2](https://docusaurus.io/) multi-instance.
-
-When you use this template in addition to the `docs` directory you'll also notice a `demo` directory, which is the location of the second docs plugin instance powered by `@docusaurus/plugin-content-docs`.
-
-This template was created by using techniques laid out in:
-
-- [Official Docusaurus Multi-instance documentation](https://docusaurus.io/docs/docs-multi-instance)
-- [This Stack Overflow comment](https://stackoverflow.com/a/68162605/4573790)
-
-Special thanks to [@Josh-Cena](https://github.com/Josh-Cena) for some support in the Docusaurus Discord server.
+# Shoreline documentation
 
 ## What's different?
 
@@ -120,11 +109,3 @@ $ npm run build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
-
-## Deployment
-
-See the [official project documentation](https://docusaurus.io/docs/2.0.0-beta.15/deployment) on Deployment.
-
-## Enjoy!
-
-Thanks and hit me up on Twitter [(@mg)](https://twitter.com/mg) if you're using this.
