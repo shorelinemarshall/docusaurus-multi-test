@@ -2,46 +2,18 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Shoreline Design documentation
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Welcome to the Shoreline Design docs! Here we run through everything you need to get started using Shoreline Design, as well as more advanced concepts and usage guidelines.
 
-## Getting Started
+## Get started
 
-Get started by **creating a new site**.
+Want to build a case, but don't know where to start? Choose the relevant Getting starte guide, whether for floating or fixed bottom, and we'll guide you through settin up your first case.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+## Dive deeper
 
-### What you'll need
+Take a look at our user guides to explore more advanced features, including inventory management and floater configurations.
 
-- [Node.js](https://nodejs.org/en/download/) version 14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+## Understand Shoresim
 
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Our simulation egine, Shoresim, carries out everything required to simulate your cases behind the scenes. Undertsanding how it works its magic is essential to getting the most out of Shoreline Design. That's why we've put together this section to explain the fundamentals and answer any questions you might have on the particulars. 
