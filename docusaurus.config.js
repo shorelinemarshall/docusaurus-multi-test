@@ -8,13 +8,15 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Shoreline documentation',
   tagline: 'The future of wind',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://shorelinemarshall.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'marshallshoreline', // Usually your GitHub org/user name.
+  projectName: 'docusaurus-multi-test.github.io', // Usually your repo name.
+  deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
   presets: [
     [
