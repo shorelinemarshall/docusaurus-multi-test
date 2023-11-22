@@ -23,7 +23,8 @@ const config = {
       ({
         docs: {
           // id: 'docs', // omitted => default instance
-          routeBasePath: 'docs',
+          path: 'design',
+          routeBasePath: 'design',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
@@ -86,7 +87,7 @@ const config = {
             items: [
               {
                label: 'Design',
-               to: '/docs/intro',
+               to: '/design/intro',
               },
               {
                 label: 'Execution',
