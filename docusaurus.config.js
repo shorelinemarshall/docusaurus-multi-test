@@ -40,9 +40,9 @@ const config = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'demo',
-        path: 'demo',
-        routeBasePath: 'demo',
+        id: 'execution',
+        path: 'execution',
+        routeBasePath: 'execution',
         sidebarPath: require.resolve('./sidebarsDemo.js'),
         // ... other options
       },
@@ -63,13 +63,13 @@ const config = {
             type: 'doc',
             position: 'left',
             docId: 'intro',
-            label: 'Docs',
+            label: 'Design',
           },
           {
-            to: '/demo/intro',   // To highlight the navbar item, you must link to a document, not a top-level directory
+            to: '/execution/intro',   // To highlight the navbar item, you must link to a document, not a top-level directory
             position: 'left',
-            label: 'Demo',
-            activeBaseRegex: `/demo/`,
+            label: 'Execution',
+            activeBaseRegex: `/execution/`,
           },
           {
             href: 'https://github.com/facebook/docusaurus',
@@ -85,9 +85,13 @@ const config = {
             title: 'Docs',
             items: [
               {
-               label: 'Tutorial',
+               label: 'Design',
                to: '/docs/intro',
               },
+              {
+                label: 'Execution',
+                to: '/execution/intro'
+              }
             ],
           },
           {
